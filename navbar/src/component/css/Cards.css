@@ -1,0 +1,52 @@
+.card-main{
+    border: 2px solid black;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.Card-whole{
+    height: 100vh;
+    border: 2px solid;
+}
+
+.Item2{
+   
+    border-image-width: 320px;
+    height: 350px;
+    background-image: url('https://img.freepik.com/free-photo/cucumber-slices-soap-dark-background_1150-45078.jpg?t=st=1716818530~exp=1716822130~hmac=1cd14ef9391a47f7cc358653b19569142e178de0fc890119573d1b108d8ac423&w=996');
+}
+
+
+.Item1{
+   
+    border-image-width: 320px;
+    height: 350px;
+    background-image: url('https://img.freepik.com/free-photo/closeup-chinese-plant-healthy-ripe_1172-262.jpg?t=st=1716817816~exp=1716821416~hmac=061ab1631a6bf89c88366858f980fb003c17ebe6cf29030650cdd624f1975fe7&w=996');
+}
+
+.Cards{
+    border: 2px solid black;
+    height: 320px;
+    width: 350px;
+    border-radius: 10px;
+}
+.Card-whole >h1{
+    text-align: center;
+}
+
+@media (max-width:800px) {
+    .card-main{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+    .Cards{
+        height: 600px;
+        width: 300px;
+    }
+    
+}

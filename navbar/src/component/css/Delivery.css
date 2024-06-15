@@ -1,0 +1,37 @@
+.Delivery-whole{
+    height: 100vh;
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+
+}
+.Delivery-text{
+    border: 2px solid;
+    width: 40%;
+
+}
+
+.Delivery-image{
+    border: 2px solid;
+    width: 40%;
+}
+
+@media(max-width:800px) {
+    .Delivery-whole{
+        flex-direction: column;
+    
+        justify-content: center;
+
+        gap: 20px;
+    }
+
+    .Delivery-image {
+        width: 500Px;
+    
+    }
+    .Delivery-image >img{
+        width: 500Px;
+        height: 600px;
+    }
+    
+}
